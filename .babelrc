@@ -1,0 +1,18 @@
+{
+  // 在jest原生测试框架中，无法使用es6的import export语法，只能使用commonJS语法
+  "env": {
+    "test": {
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    }
+  },
+  // 使用 babel 将代码编译成 es5：rollup 的模块机制是 ES6 Modules，但并不会对 es6 其他的语法进行编译
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}

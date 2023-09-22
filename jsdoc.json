@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "source": {
+    "include": "src",
+    "includePattern": ".+\\.(j|t)s(doc|x)?$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+
+  "opts": {
+    "template": "node_modules/docdash",
+    "encoding": "utf8",
+    "destination": "docs/",
+    "recurse": true,
+    "verbose": true
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  },
+  "plugins": ["node_modules/jsdoc-babel"],
+  "babel": {
+    "babelrc": false,
+    "extensions": ["ts"],
+    "presets": ["@babel/preset-typescript"]
+  }
+}
