@@ -13,9 +13,9 @@
 - 集成单元测试环境和测试覆盖率(jest)
 - 支持监听构建
 
-#### 方法文档
+#### 自动生成的方法文档
 
-[点击查看方法文档](https://tsangtszkin.github.io/zzj-utils/index.html){:target="\_blank"}
+<a href="https://tsangtszkin.github.io/zzj-utils/index.html" target="_blank">点击查看方法文档</a>
 
 ## 使用
 
