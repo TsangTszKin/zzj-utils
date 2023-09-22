@@ -15,7 +15,7 @@
 
 #### 方法文档
 
-![点击查看方法文档](./docs/index.html)
+[点击查看方法文档](https://tsangtszkin.github.io/zzj-utils/index.html){:target="\_blank"}
 
 ## 使用
 
