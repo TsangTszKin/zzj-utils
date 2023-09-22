@@ -63,3 +63,9 @@ npm test
 ```
 $ npm run doc
 ```
+
+#### 发布到自己的 npm
+
+```
+$ npm version patch && npm publish
+```
